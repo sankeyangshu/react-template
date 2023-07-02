@@ -1,5 +1,6 @@
 import reactLogo from '@/assets/react.svg';
 import viteLogo from '/vite.svg';
+import SwitchDark from '@/components/SwitchDark';
 import './index.less';
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <SwitchDark />
+      <h1>欢迎使用 React-Template-Base 模板</h1>
     </>
   );
 };
