@@ -13,7 +13,7 @@
 
 ## 简介
 
-🚀🚀🚀 **react-template-base** 使用了最新的`React18`、`React-Router v6`、`React-Hooks`、`Vite4`、`Zustand`、`Typescript`等主流技术开发，集成 `Dark Mode`(暗黑)模式，并且持久化保存，集成了代码规范检查工具`Eslint`、`Prettier`。你可以在此之上直接开发你的业务代码！希望你能喜欢。👋👋👋
+🚀🚀🚀 **react-template-base** 使用了最新的`React18`、`React-Router v6`、`React-Hooks`、`Vite4`、`Zustand`、`Typescript`等主流技术开发，集成 `Dark Mode`(暗黑)模式，并且持久化保存，集成了代码规范检查工具`Eslint`、`Prettier`、`Stylelint`。你可以在此之上直接开发你的业务代码！希望你能喜欢。👋👋👋
 
 **注：如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！**
 
@@ -23,7 +23,7 @@
 - 🚀 采用 Vite4 作为项目开发、打包工具（配置 Gzip 打包、TSX 语法、跨域代理…）
 - 🚀 整个项目集成了 TypeScript
 - 🚀 使用 Zustand 做状态管理，轻量、简单、易用
-- 🚀 使用 Prettier 统一格式化代码，集成 Eslint、Editorconfig 代码校验规范（项目规范配置）
+- 🚀 使用 Prettier 统一格式化代码，集成 Eslint、Stylelint 代码校验规范（项目规范配置）
 - 🚀 使用 husky、lint-staged、commitlint 规范提交信息（项目规范配置）
 
 ## 基础知识
@@ -53,6 +53,7 @@
 - [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules) - css 模块化支持
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 脚本代码检查
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码格式化
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) - css 格式化
 
 ## 安装和使用
 
