@@ -1,7 +1,8 @@
 import reactLogo from '@/assets/react.svg';
-import viteLogo from '/vite.svg';
 import SwitchDark from '@/components/SwitchDark';
 import './index.less';
+
+import viteLogo from '/vite.svg';
 
 const Home = () => {
   return (

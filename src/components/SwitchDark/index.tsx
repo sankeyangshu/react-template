@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { useSettingStore } from '@/store/setting';
-import { useTheme } from '@/hooks/useTheme';
 import SvgIcon from '@/components/SvgIcon';
+import { useTheme } from '@/hooks/useTheme';
+import { useSettingStore } from '@/store/setting';
 import moduleCss from './index.module.less';
 
 const SwitchDark = () => {
