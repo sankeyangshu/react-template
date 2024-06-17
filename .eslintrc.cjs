@@ -23,7 +23,7 @@ module.exports = {
     },
   },
 
-  /* eslint 插件 */
+  /* 插件 */
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'react-refresh', 'simple-import-sort'],
 
   /**
