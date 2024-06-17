@@ -1,3 +1,4 @@
+import presetRemToPx from '@unocss/preset-rem-to-px';
 import {
   defineConfig,
   presetAttributify,
@@ -13,6 +14,11 @@ export default defineConfig({
   presets: [
     // 此预设尝试提供流行的实用程序优先框架的通用超集，包括 Tailwind CSS、Windi CSS、Bootstrap、Tachyons 等
     presetUno(),
+
+    // 将所有实用工具中的 rem 转换为 px。 https://unocss.dev/presets/rem-to-px
+    presetRemToPx({
+      baseFontSize: 16,
+    }),
 
     // 属性模式(在 class 属性过多的情况下优先使用属性模式，否则将会变得难以维护) https://unocss.dev/presets/attributify#attributify-mode
     presetAttributify(),
