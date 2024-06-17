@@ -1,19 +1,19 @@
 <h1 align="center">
-  react-template-base
+  react-template
 </h1>
 <h4 align="center">使用 React + TS 构建的基础项目模版</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/sankeyangshu/react-template-base" alt="license" />
-  <img src="https://img.shields.io/github/package-json/v/sankeyangshu/react-template-base" alt="version" />
-  <img src="https://img.shields.io/github/languages/top/sankeyangshu/react-template-base" alt="languages" />
+  <img src="https://img.shields.io/github/license/sankeyangshu/react-template" alt="license" />
+  <img src="https://img.shields.io/github/package-json/v/sankeyangshu/react-template" alt="version" />
+  <img src="https://img.shields.io/github/languages/top/sankeyangshu/react-template" alt="languages" />
 </p>
 
 ---
 
 ## 简介
 
-🚀🚀🚀 **react-template-base** 使用了最新的`React18`、`React-Router v6`、`React-Hooks`、`Vite4`、`Zustand`、`Typescript`等主流技术开发，集成 `Dark Mode`(暗黑)模式，并且持久化保存，集成了代码规范检查工具`Eslint`、`Prettier`、`Stylelint`。你可以在此之上直接开发你的业务代码！希望你能喜欢。👋👋👋
+🚀🚀🚀 **react-template** 使用了最新的`React18`、`React-Router v6`、`React-Hooks`、`Vite4`、`Zustand`、`Typescript`等主流技术开发，集成 `Dark Mode`(暗黑)模式，并且持久化保存，集成了代码规范检查工具`Eslint`、`Prettier`、`Stylelint`。你可以在此之上直接开发你的业务代码！希望你能喜欢。👋👋👋
 
 **注：如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！**
 
@@ -71,7 +71,7 @@ yarn global add galaxy-cli-core
 # 推荐使用pnpm进行安装
 pnpm i -g galaxy-cli-core
 
-# 创建项目,按照脚手架提示，选择react-template-base模板
+# 创建项目,按照脚手架提示，选择react-template模板
 galaxy init <projectName>
 
 # 进入项目目录
@@ -91,10 +91,10 @@ pnpm build
 
 ```bash
 # 克隆项目
-git clone https://github.com/sankeyangshu/react-template-base.git
+git clone https://github.com/sankeyangshu/react-template.git
 
 # 进入项目目录
-cd react-template-base
+cd react-template
 
 # 安装依赖 - 推荐使用pnpm
 pnpm install
@@ -108,7 +108,7 @@ pnpm build
 
 ## 如何贡献
 
-你可以[提一个 issue](https://github.com/sankeyangshu/react-template-base/issues) 或者提交一个 Pull Request。
+你可以[提一个 issue](https://github.com/sankeyangshu/react-template/issues) 或者提交一个 Pull Request。
 
 **Pull Request:**
 
@@ -143,4 +143,4 @@ pnpm build
 
 ## 许可证
 
-[MIT License](https://github.com/sankeyangshu/react-template-base/blob/master/LICENSE)
+[MIT License](https://github.com/sankeyangshu/react-template/blob/master/LICENSE)

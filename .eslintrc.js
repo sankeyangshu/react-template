@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: { browser: true, node: true, es2020: true },
 
   /* 继承某些已有的规则 */
@@ -21,9 +22,12 @@ module.exports = {
       jsx: true,
     },
   },
+
+  /* eslint 插件 */
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'react-refresh', 'simple-import-sort'],
 
   /**
+   * 自定义规则
    * "off" 或 0    ==>  关闭规则
    * "warn" 或 1   ==>  打开的规则作为警告（不影响代码执行）
    * "error" 或 2  ==>  规则作为一个错误（代码不能执行，界面报错）
