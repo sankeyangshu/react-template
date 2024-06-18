@@ -10,10 +10,6 @@ body {
     Arial, sans-serif;
 }
 
-label {
-  font-weight: 700;
-}
-
 html {
   box-sizing: border-box;
   height: 100%;
@@ -23,10 +19,20 @@ html {
   height: 100%;
 }
 
+:root {
+  --color-text: #323233;
+  --color-background: #fff;
+  --color-block-background: #ebedf0;
+}
+
 /* 自定义暗黑模式样式 */
 html.dark {
+  --color-text: #d9d9d9;
+  --color-background: #1f1f1f;
+  --color-block-background: #3a3a3c;
+
   body {
-    color: #fff;
-    background-color: #222;
+    color: var(--color-text);
+    background-color: var(--color-background);
   }
 }

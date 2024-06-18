@@ -1,11 +1,14 @@
 import { HashRouter } from 'react-router-dom';
+import { ConfigProvider } from 'react-vant';
 import Router from './routers';
 
 const App = () => {
   return (
-    <HashRouter>
-      <Router />
-    </HashRouter>
+    <ConfigProvider>
+      <HashRouter>
+        <Router />
+      </HashRouter>
+    </ConfigProvider>
   );
 };
 
