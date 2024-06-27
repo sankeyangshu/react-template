@@ -1,9 +1,10 @@
 {
   "recommendations": [
-    "clinyong.vscode-css-modules",
-    "dsznajder.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "sankeyangshu.vscode-react-collection-snippets",
+    "sankeyangshu.vscode-javascript-typescript-snippets",
+    "antfu.unocss"
   ]
 }
