@@ -1,6 +1,6 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { Toast } from 'react-vant';
-import { checkStatus } from './CheckStatus';
+import { checkStatus } from './status';
 
 // 创建新的axios实例
 const service = axios.create({
