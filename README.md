@@ -57,36 +57,6 @@
 
 ## 安装和使用
 
-### 🚀 使用脚手架
-
-[Galaxy-CLI](https://github.com/sankeyangshu/galaxy-cli) 是一个用于快速生成各种**前后端项目模版**的脚手架。
-
-```bash
-# 选择合适的包管理工具安装脚手架
-npm i -g galaxy-cli-core
-
-# yarn
-yarn global add galaxy-cli-core
-
-# 推荐使用pnpm进行安装
-pnpm i -g galaxy-cli-core
-
-# 创建项目,按照脚手架提示，选择react-template模板
-galaxy init <projectName>
-
-# 进入项目目录
-cd <projectName>
-
-# 安装依赖 - 推荐使用pnpm
-pnpm install
-
-# 启动服务
-pnpm dev
-
-# 打包发布
-pnpm build
-```
-
 ### 克隆使用
 
 ```bash
